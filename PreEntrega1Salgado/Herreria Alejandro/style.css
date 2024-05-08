@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+body {
+    background-color: rgb(25, 53, 94);
+    margin: 0;
+    padding: 0;
+}
+#navegador {
+    background-color: rgb(163, 157, 157);
+    font-size: 200%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+#navegador a {
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    display: inline-block;
+    align-items: center;
+    border-bottom: solid 0.1px white;
+    border-left: solid 0.1px white;
+    border-right: solid 0.1px white;
+    color: black;
+}
+#navegador a:visited {
+    color: black;
+}
+#ind {
+    background-color: grey;
+}
+#nos {
+    background-color: grey;
+}
+#gal {
+    background-color: grey;
+}
+#cont {
+    background-color: grey;
+}
+#clin {
+    background-color: grey;
+}
+.listaHab {
+    list-style-image: url("Assets/ok.png");
+}
+header{
+    padding: 20px;
+    background-color: gray;
+    position: sticky;
+    top: -220px;
+}
+.headerContenido {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.headerContenido h1{
+    margin: 0;
+}
+
+
+header h1 {
+    margin: 0;
+    font-size: 300%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    flex-grow: 1;
+    text-align: center;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainContenido {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding-inline: 400px;
+}
+.mainContenido ul {
+    flex-grow: 1;
+    margin-right: 20px;
+}
+.mainContenido img{
+    margin-top: 90px;
+}
+.banner {
+    display: flex;
+    align-items: flex-start;
+}
+.cartas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-inline: 5%;
+    padding-top: 50px;
+}
+.cartas section{
+    max-width: 525px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 0 10px;
+    border: solid 1px black;
+}
+.cartas img {
+    width: 100%;
+    height: auto;
+    margin-top: 5px;
+    align-self: center;
+}
+.cartas section p {
+    font-size: 150%;
+    font-family: "Merriweather", serif;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 10px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(106, 111, 158);
+    font-family: "Merriweather", serif;
+}
+#conta {
+    list-style-type: none;
+    align-self: center;
+}
+#tel {
+    list-style-image: url("Assets/telefono.png");
+}
+#cel {
+    list-style-image: url("Assets/wpp.png");
+}
+#mail {
+    list-style-image: url("Assets/mail.png");
+}
+footer p {
+    margin: 0;
+    height: 145px;
+    width: 25%;
+    text-align: justify;
+}
+#nosItems {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-top: 50px;
+    text-align: center;
+}
+#nosItems .imgNos {
+    align-items: flex-end;
+}
+#nosItems p {
+    max-width: 25%;
+    margin-bottom: 20px;
+    position: relative;
+    top: 80px;
+    right: 100px;
+    font-family: "Merriweather", serif;
+    font-style: normal;
+    font-weight: 400;
+}
+#nosItems h2 {
+    position: relative;
+    top: 20px;
+    left: 230px;
+}
+.imgNos {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+    overflow-x: auto;
+    max-width: 70%;
+}
+.imgNos img {
+    max-width: 100px;
+    height: auto;
+    flex-shrink: 0;
+}
